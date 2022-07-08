@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+  box-sizing: border-box;
+  /* font-family: 'Dancing Script', cursive;
+   */
+   font-family: 'Secular One', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+}
+ .nav-bar {
+    color: antiquewhite;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 10px 20px 10px 30px;
+
+
+
+ }
+ .navbar-text-left{
+    margin-right: auto;
+     font-size: 40px;
+ }
+ .logo-section {
+  width: 130px;
+ 
+  margin-right: 20px ;
+ }
+
+
+ .flex-imput {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+margin-top: 30px;  
+ }
+.form--input-2,.form--input-1 {
+  width: 500px;
+    height: 50px;
+     text-align: center;
+   border: 3px solid #A626D3;
+   background-color:#ffffff;
+   color: #A626D3;
+   border-radius: 6px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(77, 78, 79);
+  opacity: 1; /* Firefox */
+}
+
+.form-button {
+  width: 800px;
+  height: 60px;
+  margin-top: 50px;
+}
+
+.new-img-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+
+   
+}
+.form-button {
+  background: #A626D3;
+  color: aliceblue;
+  font-size: 1rem;
+   border-radius: 0.5rem;
+   cursor: pointer;
+   border: 2px solid rgb(186, 129, 255);
+
+}
+
+.meme-img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 400px;
+    margin-top: 20px;
+
 }
