@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import datas from "./Memesdata/data.js";
 
 const Mainsecion = () => {
-  const [memeimg, setmemeimg] = useState("");
+  const [memeimg, setmemeimg] = useState('https://i.imgflip.com/23ls.jpg');
 
   function memesurlgenerate() {
     const memesdata = datas.data.memes;
@@ -36,7 +36,7 @@ const Mainsecion = () => {
             </button>
           </div>
           <div className="img">
-            <img src={memeimg} className="meme-img" />
+            <img src={memeimg}  alt="img"className="meme-img" />
           </div>
         </div>
       </main>
